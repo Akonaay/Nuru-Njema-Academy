@@ -458,7 +458,7 @@ a.nav-link:active {
 
 .main-social-footer-29 a {
   margin-right: 10px;
-  color: var(--primary-color);
+  color: rgb(52, 206, 32);
   display: inline-block;
   text-align: center;
   font-size: 16px;
@@ -471,7 +471,7 @@ a.nav-link:active {
 }
 
 .main-social-footer-29 a:hover {
-  background: var(--primary-color);
+  background: pink;
   transition: 0.3s;
   color: #fff;
 }
@@ -510,6 +510,32 @@ a.nav-link:active {
 
 .w3l-footer-29-main .footer-post a:hover {
   color: #eee;
+}
+
+.links {
+  list-style: none;
+}
+
+.links li {
+  margin-bottom: 5px;
+}
+
+.overview-header {
+  margin-bottom: 3rem !important;
+}
+
+.links li a {
+  text-decoration: none;
+  color: white;
+}
+
+.links li a:hover {
+  text-decoration: none;
+  color: rgb(93, 119, 206);
+}
+
+.ml-3-3 {
+  margin-left: -40px !important;
 }
 
 .w3l-footer-29-main .map-iframe-ft iframe {
